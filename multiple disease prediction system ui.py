@@ -25,11 +25,16 @@ working_dir = os.path.dirname(os.path.abspath(__file__))
 
 # diabetes_model = pickle.load(open(f'C:/Users/HP/OneDrive/Desktop/Multiple disease prediction/trained model/diabetes_model.sav'))
 
-diabetes_model = pickle.load(open('C:/Users/HP/OneDrive/Desktop/Multiple disease prediction/trained model/diabetes_model.sav', 'rb'))
+#diabetes_model = pickle.load(open('C:/Users/HP/OneDrive/Desktop/Multiple disease prediction/trained model/diabetes_model.sav', 'rb'))
 
-heart_disease_model = pickle.load(open(f'C:/Users/HP/OneDrive/Desktop/Multiple disease prediction/trained model/heart_disease_model.sav', 'rb'))
+#heart_disease_model = pickle.load(open(f'C:/Users/HP/OneDrive/Desktop/Multiple disease prediction/trained model/heart_disease_model.sav', 'rb'))
 
-parkinsons_model = pickle.load(open(f'C:/Users/HP/OneDrive/Desktop/Multiple disease prediction/trained model/parkinsons_model.sav', 'rb'))
+#parkinsons_model = pickle.load(open(f'C:/Users/HP/OneDrive/Desktop/Multiple disease prediction/trained model/parkinsons_model.sav', 'rb'))
+
+diabetes_model = pickle.load(open('diabetes_model.sav', 'rb'))
+heart_disease_model = pickle.load(open('heart_disease_model.sav', 'rb'))
+dparkinsons_model = pickle.load(open('parkinsons_model.sav', 'rb'))
+
 
 # sidebar for navigation
 with st.sidebar:
