@@ -1,0 +1,3 @@
+streamlit run "C:\Users\HP\OneDrive\Desktop\Multiple disease prediction\multiple disease prediction system ui.py"
+
+and run this command through anaconda ml terminal
